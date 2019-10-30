@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node ./server/index.js",
+    "dev": "nodemon ./server/index.js 8080"
+  },
+  "main": "./server/index.js",
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "node-persist": "^3.0.5"
+  }
+}
